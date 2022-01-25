@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: lint
         uses: creyD/prettier_action@v4.2
+        with:
+          prettier_options: --write **/*.{tsx,ts,json,html,css,md}
