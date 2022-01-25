@@ -1,2 +1,9 @@
-- name: lint
-  uses: creyD/prettier_action@v4.2
+name: lint
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lint
+        uses: creyD/prettier_action@v4.2
