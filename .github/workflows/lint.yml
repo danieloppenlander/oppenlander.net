@@ -11,4 +11,4 @@ jobs:
       - name: lint
         uses: creyD/prettier_action@v4.2
         with:
-          prettier_options: --write **/*
+          prettier_options: --write .
