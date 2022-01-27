@@ -1,18 +1,12 @@
 .Content {
-  display: block;
-  position: relative;
-  background: #ffffff;
-  color: #000000;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  max-width: 80%;
-  margin: auto;
-  padding: 25px;
-  margin-bottom: 5%;
+  top: 50px;
+  width: 95%;
 }
 
 .Content h3 {
   color: #5131e3;
+}
+
+.Content a {
+  color: #A7FFEB
 }
