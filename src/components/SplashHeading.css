@@ -9,3 +9,7 @@
 .SplashHeading .heading {
   padding: 25px;
 }
+
+.SplashHeading .buttons {
+  margin-bottom: 50px;
+}

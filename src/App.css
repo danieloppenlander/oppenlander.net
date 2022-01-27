@@ -59,27 +59,30 @@ p {
 }
 
 .button {
-  background-image: linear-gradient(to right, #2962ff, #6200ea);
   color: #fff;
   border-radius: 25px;
   padding: 20px;
   overflow: auto;
   max-width: 16vh;
-  margin: 15px 0;
-}
-
-.button:hover {
-  background-image: linear-gradient(to right, #2979ff, #651fff);
-  color: #fff;
-  border-radius: 25px;
-  padding: 20px;
-  overflow: auto;
-  max-width: 16vh;
-  margin: 15px 0;
-}
-
-.button-a {
+  margin: 20px 0;
+  display: block;
   text-decoration: none;
+}
+
+.gradient-blue {
+  background-image: linear-gradient(to right, #2962ff, #6200ea);
+}
+
+.gradient-blue-hover:hover {
+  background-image: linear-gradient(to right, #2979ff, #651fff);
+}
+
+.gradient-orange {
+  background-image: linear-gradient(to right, #DD2C00, #FFAB00);
+}
+
+.gradient-orange-hover:hover {
+  background-image: linear-gradient(to right, #FF3D00, #FFC400);
 }
 
 .skew-top,
@@ -101,13 +104,13 @@ p {
 /*  font-family: Arial,sans-serif;*/
 /*}*/
 
-.skew-top::after {
+.skew-bottom::before {
   content: "";
   display: block;
   width: 0;
   height: 0;
   position: absolute;
-  bottom: 0;
+  top: calc(-60px + -4vw);
   border-bottom: calc(60px + 4vw) solid #000;
   border-left: 100vw solid transparent;
 }

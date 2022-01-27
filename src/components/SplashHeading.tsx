@@ -7,26 +7,32 @@ function SplashHeading() {
   return (
     <Container className={"SplashHeading centered"}>
       <Row>
-        <Col md={6} className={"heading"}>
+        <Col sm={12} lg={6} className={"heading"}>
           <h1>Daniel Oppenlander</h1>
           <p>
             An engineer with a career approach that includes constant learning
             and personal integrity.
           </p>
         </Col>
-        <Col md={3} offset={{ md: 3 }} className={"buttons"}>
-          <a href={"/files/daniel-oppenlander-resume.pdf"} className={"button-a"}>
-            <div className={"button"}>Resume</div>
-          </a>
-          <a href={"mailto: daniel@oppenlander.net"} className={"button-a"}>
-            <div className={"button"}>Email</div>
-          </a>
-          <a
-            href={"https://www.linkedin.com/in/daniel-oppenlander/"}
-            className={"button-a"}
-          >
-            <div className={"button"}>LinkedIn</div>
-          </a>
+        <Col sm={12} lg={6} className={"buttons"}>
+          <Row>
+            <Col xs={6} lg={6} offset={{ lg: 6 }}>
+              <a target="_blank" rel="noopener noreferrer" href={"/files/daniel-oppenlander-resume.pdf"} className={"button gradient-blue gradient-blue-hover"}>
+                Resume
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href={"mailto: daniel@oppenlander.net"} className={"button gradient-blue gradient-blue-hover"}>
+                Email
+              </a>
+            </Col>
+            <Col xs={6} lg={6} offset={{ lg: 6 }}>
+              <a target="_blank" rel="noopener noreferrer" href={"https://www.linkedin.com/in/daniel-oppenlander/"} className={"button gradient-orange gradient-orange-hover"}>
+                LinkedIn
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href={"https://github.com/danieloppenlander"} className={"button gradient-orange gradient-orange-hover"}>
+                GitHub
+              </a>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
