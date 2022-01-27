@@ -15,7 +15,10 @@ function SplashHeading() {
           </p>
         </Col>
         <Col md={3} offset={{ md: 3 }} className={"buttons"}>
-          <a href={"/files/daniel-oppenlander-resume.pdf"} className={"button-a"}>
+          <a
+            href={"/files/daniel-oppenlander-resume.pdf"}
+            className={"button-a"}
+          >
             <div className={"button"}>Resume</div>
           </a>
           <a href={"mailto: daniel@oppenlander.net"} className={"button-a"}>
