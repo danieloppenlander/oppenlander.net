@@ -78,11 +78,11 @@ p {
 }
 
 .gradient-orange {
-  background-image: linear-gradient(to right, #DD2C00, #FFAB00);
+  background-image: linear-gradient(to right, #dd2c00, #ffab00);
 }
 
 .gradient-orange-hover:hover {
-  background-image: linear-gradient(to right, #FF3D00, #FFC400);
+  background-image: linear-gradient(to right, #ff3d00, #ffc400);
 }
 
 .skew-top,

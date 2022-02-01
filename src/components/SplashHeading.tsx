@@ -17,18 +17,38 @@ function SplashHeading() {
         <Col sm={12} lg={6} className={"buttons"}>
           <Row>
             <Col xs={6} lg={6} offset={{ lg: 6 }}>
-              <a target="_blank" rel="noopener noreferrer" href={"/files/daniel-oppenlander-resume.pdf"} className={"button gradient-blue gradient-blue-hover"}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"/files/daniel-oppenlander-resume.pdf"}
+                className={"button gradient-blue gradient-blue-hover"}
+              >
                 Resume
               </a>
-              <a target="_blank" rel="noopener noreferrer" href={"mailto: daniel@oppenlander.net"} className={"button gradient-blue gradient-blue-hover"}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"mailto: daniel@oppenlander.net"}
+                className={"button gradient-blue gradient-blue-hover"}
+              >
                 Email
               </a>
             </Col>
             <Col xs={6} lg={6} offset={{ lg: 6 }}>
-              <a target="_blank" rel="noopener noreferrer" href={"https://www.linkedin.com/in/daniel-oppenlander/"} className={"button gradient-orange gradient-orange-hover"}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https://www.linkedin.com/in/daniel-oppenlander/"}
+                className={"button gradient-orange gradient-orange-hover"}
+              >
                 LinkedIn
               </a>
-              <a target="_blank" rel="noopener noreferrer" href={"https://github.com/danieloppenlander"} className={"button gradient-orange gradient-orange-hover"}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https://github.com/danieloppenlander"}
+                className={"button gradient-orange gradient-orange-hover"}
+              >
                 GitHub
               </a>
             </Col>
