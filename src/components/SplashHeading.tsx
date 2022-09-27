@@ -9,9 +9,10 @@ function SplashHeading() {
       <Row>
         <Col sm={12} lg={6} className={"heading"}>
           <h1>Daniel Oppenlander</h1>
-          <p>
-            An engineer with a career approach that includes constant learning
-            and personal integrity.
+          <p className={"text-italic"}>
+            An engineer with a career approach that includes{" "}
+            <span className={"text-blue"}>constant learning</span> and{" "}
+            <span className={"text-blue"}>personal integrity</span>.
           </p>
         </Col>
         <Col sm={12} lg={6} className={"buttons"}>
