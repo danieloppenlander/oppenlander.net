@@ -5,9 +5,9 @@ import { Container, Row, Col } from "react-grid-system";
 
 function SplashHeading() {
   return (
-    <Container className={"SplashHeading centered"}>
+    <Container className={"SplashHeading"}>
       <Row>
-        <Col md={12} lg={6} className={"heading"}>
+        <Col md={12} lg={6}>
           <h1>Daniel Oppenlander</h1>
           <p className={"text-italic"}>
             An engineer with a career approach that includes{" "}
@@ -15,7 +15,7 @@ function SplashHeading() {
             <span className={"text-blue"}>personal integrity</span>.
           </p>
         </Col>
-        <Col md={12} lg={6} className={"buttons"}>
+        <Col md={12} lg={6}>
           <Row>
             <Col xs={6} lg={12} offset={{ lg: 6 }}>
               <a

@@ -63,27 +63,25 @@
   color: #fff;
 }
 
-.skew-top,
-.skew-bottom {
-  min-height: 40vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
+
 
 .skew-top {
   background-color: #fff;
-  min-height: 85vh;
+  min-height: 70vh;
+  position: relative;
 }
 
-.skew-bottom::before {
+.skew-top::after {
   content: "";
-  display: block;
-  width: 0;
-  height: 0;
   position: absolute;
-  top: calc(-15vmin);
-  border-bottom: calc(15vmin) solid #000;
-  border-left: 100vw solid transparent;
+  bottom: -10vmax;
+  left: 0;
+  right: 0;
+  height: 20vmax;
+  background: #fff;
+  transform: skewY(6deg);
+}
+
+.skew-bottom {
+  /*min-height: 40vh;*/
 }

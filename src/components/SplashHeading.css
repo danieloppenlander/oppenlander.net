@@ -1,15 +1,5 @@
 .SplashHeading {
-  display: block;
-  position: relative;
   color: #000;
-  width: 95%;
-  height: 70%;
-}
-
-.SplashHeading .heading {
-  padding: 25px;
-}
-
-.SplashHeading .buttons {
-  margin-bottom: 50px;
+  padding-top: 10vh;
+  z-index: 10;
 }
