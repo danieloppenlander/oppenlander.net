@@ -8,51 +8,6 @@
   width: 100%;
 }
 
-body {
-  margin: 0;
-  font-family: "IBM Plex Sans", sans-serif;
-  background: #000;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-h1 {
-  font-size: calc(4vw + 4vh);
-  font-weight: 500;
-  margin-top: 50px;
-  margin-bottom: 0;
-}
-
-h2 {
-  font-size: calc(3vw + 3vh);
-  font-weight: 500;
-  margin-top: 40px;
-  margin-bottom: 0;
-}
-
-h3 {
-  font-size: calc(2vw + 2vh);
-  font-weight: 500;
-  margin-top: 40px;
-  margin-bottom: 0;
-}
-
-p {
-  font-size: calc(0.8em + 0.5vw + 0.5vh);
-  font-weight: 500;
-  margin-top: 15px;
-  margin-bottom: 0;
-}
-
-.text-box {
-  background-image: linear-gradient(to right, #2962ff, #6200ea);
-  color: #fff;
-  border-radius: 25px;
-  padding: 20px;
-  overflow: auto;
-  margin: 20px 0;
-}
-
 .text-bold {
   font-weight: 700;
 }
@@ -69,14 +24,20 @@ p {
   color: #dd2c00;
 }
 
+.text-box {
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+  padding: 20px;
+}
+
 .button {
-  color: #fff;
-  font-size: calc(0.8em + 0.5vw + 0.5vh);
+  font-size: 2em;
   font-weight: 500;
   border-radius: 25px;
   padding: 20px;
-  overflow: auto;
-  max-width: 16vh;
+  overflow: hidden;
+  max-width: 6em;
   margin: 20px 0;
   display: block;
   text-decoration: none;
@@ -84,18 +45,22 @@ p {
 
 .gradient-blue {
   background-image: linear-gradient(to right, #2962ff, #6200ea);
+  color: #fff
 }
 
 .gradient-blue-hover:hover {
   background-image: linear-gradient(to right, #2979ff, #651fff);
+  color: #fff
 }
 
 .gradient-orange {
   background-image: linear-gradient(to right, #dd2c00, #ffab00);
+  color: #fff
 }
 
 .gradient-orange-hover:hover {
   background-image: linear-gradient(to right, #ff3d00, #ffc400);
+  color: #fff
 }
 
 .skew-top,
@@ -109,13 +74,8 @@ p {
 
 .skew-top {
   background-color: #fff;
-  min-height: calc(70vh + 70px);
+  min-height: 85vh
 }
-
-/*.skew-top > div, .skew-bottom > div{*/
-/*  font-size: 30px;*/
-/*  font-family: Arial,sans-serif;*/
-/*}*/
 
 .skew-bottom::before {
   content: "";
@@ -123,7 +83,7 @@ p {
   width: 0;
   height: 0;
   position: absolute;
-  top: calc(-60px + -4vw);
-  border-bottom: calc(60px + 4vw) solid #000;
+  top: calc(-15vmin);
+  border-bottom: calc(15vmin) solid #000;
   border-left: 100vw solid transparent;
 }

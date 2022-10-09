@@ -9,7 +9,8 @@ function App() {
       <section className={"skew-top"}>
         <SplashHeading />
       </section>
-      <section className={"skew-bottom"}></section>
+      <section className={"skew-bottom"}>
+      </section>
     </div>
   );
 }

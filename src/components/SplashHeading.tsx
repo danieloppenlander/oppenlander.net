@@ -7,7 +7,7 @@ function SplashHeading() {
   return (
     <Container className={"SplashHeading centered"}>
       <Row>
-        <Col sm={12} lg={6} className={"heading"}>
+        <Col md={12} lg={6} className={"heading"}>
           <h1>Daniel Oppenlander</h1>
           <p className={"text-italic"}>
             An engineer with a career approach that includes{" "}
@@ -15,9 +15,9 @@ function SplashHeading() {
             <span className={"text-blue"}>personal integrity</span>.
           </p>
         </Col>
-        <Col sm={12} lg={6} className={"buttons"}>
+        <Col md={12} lg={6} className={"buttons"}>
           <Row>
-            <Col xs={6} lg={6} offset={{ lg: 6 }}>
+            <Col xs={6} lg={12} offset={{ lg: 6 }}>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -35,7 +35,7 @@ function SplashHeading() {
                 Email
               </a>
             </Col>
-            <Col xs={6} lg={6} offset={{ lg: 6 }}>
+            <Col xs={6} lg={12} offset={{ lg: 6 }}>
               <a
                 target="_blank"
                 rel="noopener noreferrer"

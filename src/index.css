@@ -1,13 +1,23 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "IBM Plex Sans", sans-serif;
+  background: #000;
+  overflow-x: hidden;
+
+  /*Until I add more content*/
+  overflow-y: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1 {
+  font-size: 6em;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 0;
 }

@@ -7,8 +7,8 @@ function Content() {
   return (
     <Container className={"Content"}>
       <Row>
-        <Col sm={4}>
-          <div className={"text-box"}>
+        <Col md={12} lg={4}>
+          <div className={"text-box gradient-blue"}>
             <p>My web page is currently under construction!</p>
             <p>
               For inquiries, please email me at{" "}
@@ -19,8 +19,8 @@ function Content() {
             </p>
           </div>
         </Col>
-        <Col sm={4}>
-          <div className={"text-box"}>
+        <Col md={12} lg={4}>
+          <div className={"text-box gradient-blue"}>
             <p>My web page is currently under construction!</p>
             <p>
               For inquiries, please email me at{" "}
@@ -31,8 +31,8 @@ function Content() {
             </p>
           </div>
         </Col>
-        <Col sm={4}>
-          <div className={"text-box"}>
+        <Col md={12} lg={4}>
+          <div className={"text-box gradient-blue"}>
             <p>My web page is currently under construction!</p>
             <p>
               For inquiries, please email me at{" "}
