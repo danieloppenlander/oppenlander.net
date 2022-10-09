@@ -45,22 +45,22 @@
 
 .gradient-blue {
   background-image: linear-gradient(to right, #2962ff, #6200ea);
-  color: #fff
+  color: #fff;
 }
 
 .gradient-blue-hover:hover {
   background-image: linear-gradient(to right, #2979ff, #651fff);
-  color: #fff
+  color: #fff;
 }
 
 .gradient-orange {
   background-image: linear-gradient(to right, #dd2c00, #ffab00);
-  color: #fff
+  color: #fff;
 }
 
 .gradient-orange-hover:hover {
   background-image: linear-gradient(to right, #ff3d00, #ffc400);
-  color: #fff
+  color: #fff;
 }
 
 .skew-top,
@@ -74,7 +74,7 @@
 
 .skew-top {
   background-color: #fff;
-  min-height: 85vh
+  min-height: 85vh;
 }
 
 .skew-bottom::before {
