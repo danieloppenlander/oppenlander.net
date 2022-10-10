@@ -32,15 +32,23 @@
 }
 
 .button {
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 500;
   border-radius: 25px;
-  padding: 20px;
+  padding: 15px;
   overflow: hidden;
-  max-width: 6em;
+  width: 5em;
   margin: 20px 0;
   display: block;
   text-decoration: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 .gradient-blue {
@@ -63,11 +71,9 @@
   color: #fff;
 }
 
-
-
 .skew-top {
   background-color: #fff;
-  min-height: 70vh;
+  min-height: 50vh;
   position: relative;
 }
 
@@ -80,8 +86,4 @@
   height: 20vmax;
   background: #fff;
   transform: skewY(6deg);
-}
-
-.skew-bottom {
-  /*min-height: 40vh;*/
 }

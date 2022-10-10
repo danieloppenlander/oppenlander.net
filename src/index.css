@@ -3,19 +3,16 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   background: #000;
   overflow-x: hidden;
-
-  /*Until I add more content*/
-  /*overflow-y: hidden;*/
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 500;
   margin: 0 0 20px 0;
 }
 
 p {
-  font-size: 1.8em;
+  font-size: 1.7em;
   font-weight: 500;
   margin: 0 0 20px 0;
 }

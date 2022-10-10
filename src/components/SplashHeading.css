@@ -2,4 +2,13 @@
   color: #000;
   padding-top: 10vh;
   z-index: 10;
+  margin: 0 auto;
+  min-width: 10vw
+}
+
+#headshot {
+  width: 10em;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
