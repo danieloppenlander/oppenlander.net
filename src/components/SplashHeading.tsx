@@ -12,8 +12,8 @@ function SplashHeading() {
         </Col>
       </Row>
       <Row>
-        <Col md={8} lg={6} offset={{sm: 0, md: 2, lg: 3}}>
-          <h1>Daniel Oppenlander</h1>
+        <Col md={7} xl={5} offset={{md: 3, xl: 4}}>
+          <h1 id={"name"}>Daniel Oppenlander</h1>
           <p className={"text-italic"}>
             An engineer with a career approach that includes{" "}
             <span className={"text-blue"}>constant learning</span> and{" "}

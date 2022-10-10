@@ -1,7 +1,6 @@
 .SplashHeading {
   color: #000;
   padding-top: 10vh;
-  z-index: 10;
   margin: 0 auto;
   min-width: 10vw
 }
@@ -10,5 +9,5 @@
   width: 10em;
   border-radius: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }

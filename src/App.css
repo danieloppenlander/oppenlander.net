@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-.App {
-  position: absolute;
-  z-index: 100;
-  margin: 0;
-  width: 100%;
-}
-
 .text-bold {
   font-weight: 700;
 }
@@ -32,7 +25,7 @@
 }
 
 .button {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: 500;
   border-radius: 25px;
   padding: 15px;
@@ -86,4 +79,5 @@
   height: 20vmax;
   background: #fff;
   transform: skewY(6deg);
+  z-index: -10;
 }
