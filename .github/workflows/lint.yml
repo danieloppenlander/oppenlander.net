@@ -12,4 +12,4 @@ jobs:
         uses: creyD/prettier_action@v4.6
         with:
           dry: True
-          prettier_options: --check .
+          prettier_options: --write .
