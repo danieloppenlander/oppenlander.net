@@ -11,5 +11,4 @@ jobs:
       - name: lint
         uses: creyD/prettier_action@v4.6
         with:
-          dry: True
           prettier_options: --write .
