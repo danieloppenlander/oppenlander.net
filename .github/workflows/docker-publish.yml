@@ -52,13 +52,20 @@ jobs:
             type=ref,event=pr
             type=sha
 
+      # - name: Build and push
+      #   uses: docker/build-push-action@v6
+      #   with:
+      #     context: .
+      #     push: ${{ github.event_name != 'pull_request' }}
+      #     platforms: linux/amd64,linux/arm64
+      #     cache-from: type=gha
+      #     cache-to: type=gha,mode=max
+      #     tags: ${{ steps.meta.outputs.tags }}
+      #     labels: ${{ steps.meta.outputs.labels }}
+
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: .
-          push: ${{ github.event_name != 'pull_request' }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          push: true
+          tags: user/app:latest
