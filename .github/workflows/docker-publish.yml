@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   docker:
-    runs-on: node:24-alpine
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
