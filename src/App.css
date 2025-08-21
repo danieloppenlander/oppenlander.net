@@ -78,6 +78,6 @@
   right: 0;
   height: 20vmax;
   background: #fff;
-  transform: skewY(7deg);
+  transform: skewY(6deg);
   z-index: -10;
 }

@@ -8,7 +8,7 @@ function SplashHeading() {
     <Container className={"SplashHeading"}>
       <Row>
         <Col md={12}>
-          <img id={"headshot"} src={"/img/avatar-pro.jpg"} alt={"Headshot"} />
+          <img id={"headshot"} src={"/img/avatar-pro.webp"} alt={"Headshot"} />
         </Col>
       </Row>
       <Row>
@@ -26,7 +26,7 @@ function SplashHeading() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={"/files/daniel-oppenlander-resume.pdf"}
+            href={"https://standardresume.co/r/p92k4eP_NTp0HaprL1wzM"}
             className={"button float-left gradient-blue gradient-blue-hover"}
           >
             Resume
