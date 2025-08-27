@@ -21,7 +21,10 @@ function SplashHeading() {
             <span>and </span>
             <span className={"text-blue"}>effectively collaborating </span>
             <span>over the entire product lifecycle. </span>
-            <span>Experienced in full stack development, security, networking, DevOps, and cloud. </span>
+            <span>
+              Experienced in full stack development, security, networking,
+              DevOps, and cloud.{" "}
+            </span>
             <span className={"text-orange"}>Constantly learning.</span>
           </p>
         </Col>
