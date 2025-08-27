@@ -15,7 +15,7 @@ function App() {
         viewBox="0 0 10 10"
         preserveAspectRatio="none"
       >
-        <polygon points="0,0 10,10 0,10" />
+        <polygon points="0,0 10,0 10,10" fill="#fff" />
       </svg>
       <section className={"skew-bottom"}></section>
     </div>
