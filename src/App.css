@@ -24,6 +24,12 @@
   padding: 20px;
 }
 
+.subtitle {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: -16px 0 20px 0;
+}
+
 .button {
   font-size: 1.5em;
   font-weight: 500;

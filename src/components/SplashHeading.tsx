@@ -13,11 +13,16 @@ function SplashHeading() {
       </Row>
       <Row>
         <Col md={7} xl={5} offset={{ md: 3, xl: 4 }}>
-          <h1 id={"name"}>Daniel Oppenlander</h1>
+          <h1>Daniel Oppenlander</h1>
+          <p className={"subtitle text-orange"}>Software Engineer</p>
           <p className={"text-italic"}>
-            An engineer with a career approach that includes{" "}
-            <span className={"text-blue"}>constant learning</span> and{" "}
-            <span className={"text-blue"}>personal integrity</span>.
+            <span>Proven record of </span>
+            <span className={"text-blue"}>taking ownership </span>
+            <span>and </span>
+            <span className={"text-blue"}>effectively collaborating </span>
+            <span>over the entire product lifecycle. </span>
+            <span>Experienced in full stack development, security, networking, DevOps, and cloud. </span>
+            <span className={"text-orange"}>Constantly learning.</span>
           </p>
         </Col>
       </Row>
