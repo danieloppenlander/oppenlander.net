@@ -69,17 +69,12 @@
 }
 
 .skew-top {
-  position: relative;
+  background-color: #fff;
 }
 
-.skew-top::after {
-  content: "";
-  position: absolute;
-  bottom: -5vmax;
-  left: 0;
-  right: 0;
-  height: 100vh;
+.skew {
+  display: block;
+  width: 100vw;
+  height: 15vw;
   background: #fff;
-  transform: skewY(8deg);
-  z-index: -10;
 }
